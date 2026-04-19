@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Sweet Corner</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Contact Sweet Corner for enquiries about cakes, cupcakes and donuts.">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Service</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <h1>Sweet Corner</h1>
+</header>
+
+<main>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Contact Us</h2>
+        <p>We’d love to hear from you. Get in touch with us below.</p>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="products">
+
+        <div class="card">
+            <h3>Email</h3>
+            <p>
+                <a href="mailto:info@sweetcorner.com">
+                    info@sweetcorner.com
+                </a>
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Phone</h3>
+            <p>
+                <a href="tel:0123456789">
+                    011 345 6789
+                </a>
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Location</h3>
+            <p>Benoni, South Africa</p>
+        </div>
+
+    </section>
+
+    <!-- Google Map -->
+    <section class="map">
+        <iframe 
+            src="https://www.google.com/maps?q=Benoni,South%20Africa&output=embed"
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="form-container">
+        <div class="form-card">
+
+            <form id="contactForm" action="mailto:info@sweetcorner.com" method="post">
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Sweet Corner. All rights reserved.</p>
+</footer>
+
+<!-- JavaScript -->
+<script src="javascript/script.js"></script>
+
+</body>
+</html>

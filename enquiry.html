@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry | Sweet Corner</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Service</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <h1>Sweet Corner</h1>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <h2>Make an Enquiry</h2>
+            <p>Fill in the form below and we’ll get back to you.</p>
+        </section>
+
+        <!-- Form Section -->
+        <section class="form-container">
+            <div class="form-card">
+
+                <form>
+
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" required>
+
+                    <label for="service">Select Service</label>
+                    <select id="service" required>
+                        <option value="">-- Choose an option --</option>
+                        <option>Cakes</option>
+                        <option>Cupcakes</option>
+                        <option>Donuts</option>
+                    </select>
+
+                    <label for="date">Event Date</label>
+                    <input type="date" id="date" required>
+
+                    <label for="message">Your Enquiry</label>
+                    <textarea id="message" rows="4"></textarea>
+
+                    <button type="submit">Submit Enquiry</button>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Sweet Corner. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
